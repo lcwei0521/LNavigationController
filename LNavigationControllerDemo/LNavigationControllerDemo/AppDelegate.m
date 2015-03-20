@@ -20,8 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    ViewController *root = [[ViewController alloc]init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
     
+    ViewController *root = [[ViewController alloc]init];
     LNavigationController *unVc = [[LNavigationController alloc]initWithRootViewController:root];
     unVc.animationStyle = AnimationMove;//设置动画效果
     self.window.rootViewController = unVc;

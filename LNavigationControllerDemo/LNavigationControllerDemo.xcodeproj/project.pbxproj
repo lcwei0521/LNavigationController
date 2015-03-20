@@ -417,6 +417,7 @@
 				13A54F071ABBBFC100B1D47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13A54F081ABBBFC100B1D47E /* Build configuration list for PBXNativeTarget "LNavigationControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				13A54F0A1ABBBFC100B1D47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
